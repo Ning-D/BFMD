@@ -88,3 +88,15 @@ yt-dlp --cookies ../www.youtube.com_cookies.txt --no-playlist \
 
 （Drive には `MyDrive/video-clips` としてアップロードしてください。L2 が生成する追跡JSONは
 `MyDrive/video-clips/tracks/<動画名>_player_tracks.json` に保存され、L3 が自動で読み込みます）
+
+## tracks/ — L4 アノテーション実習用の追跡JSON
+
+L2 の出力（選手 bbox＋シャトル/ボール位置）。L4 が GitHub から直接ダウンロードして
+ドラッグ手修正の題材にする。命名規則: `<動画名>_player_tracks.json` / `<動画名>_shuttle_tracks.json`。
+
+| ファイル | 内容 |
+|---|---|
+| badminton_01_* | 選手2名 160f / シャトル検出 149/160 (TrackNet) |
+| pickleball_01_* | 選手2名 420f / ボール検出 383/420 (TrackNet) |
+| pickleball_02_* | 選手2名 420f / ボール検出 400/420 (TrackNet) |
+| tennis_01_* | 選手2名 420f / ボール検出 393/420 (TrackNet) |
