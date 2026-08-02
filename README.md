@@ -5,6 +5,8 @@
 
 Official repository for **BFMD: A Full-Match Badminton Dense Dataset for Dense Shot Captioning**.
 
+🌐 **[Dataset Page](https://ning-d.github.io/BFMD-Dataset/)** · 📥 **[Download (Google Drive)](https://drive.google.com/drive/folders/1wQr4DpMbx-e8jFnvOH9WUJXxfXgTC1IJ?usp=drive_link)** · 📄 **[Paper (CVSports @ CVPR 2026)](https://openaccess.thecvf.com/content/CVPR2026W/CVsports/papers/Ding_BFMD_A_Full-Match_Badminton_Dense_Dataset_for_Dense_Shot_Captioning_CVPRW_2026_paper.pdf)**
+
 ## Overview
 
 Understanding tactical dynamics in badminton requires analyzing entire matches rather than isolated clips. However, existing badminton datasets mainly focus on short clips or task-specific annotations and rarely provide full-match data with dense multimodal annotations. This limitation makes it difficult to generate accurate shot captions and perform match-level analysis.
@@ -34,6 +36,8 @@ Experimental results show that multimodal modeling and semantic feedback improve
 ---
 
 ## Download
+
+Full dataset documentation is available on the **[Dataset Page](https://ning-d.github.io/BFMD-Dataset/)**.
 
 The BFMD dataset (annotations, match index, and helper scripts) is available on Google Drive:
 
