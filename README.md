@@ -43,51 +43,6 @@ Videos are not redistributed for copyright reasons — they can be re-downloaded
 
 ---
 
-## Dataset Statistics
-
-| Item | Value |
-|------|-------|
-| Matches | 19 |
-| Total duration | 20+ hours |
-| Rallies | 1,687 |
-| Hit events | 16,751 |
-| Match types | Singles and Doubles |
-
----
-
-## Features
-
-- Full-match badminton dataset with dense annotations
-- Hierarchical annotation structure from match level to shot level
-- Multimodal annotations for each event
-- Dense shot captioning benchmark
-- Baseline multimodal captioning framework
-- Tactical pattern analysis across full matches
-
----
-
-## Annotation Contents
-
-BFMD includes the following annotations:
-
-- **Match-level segments**
-  - rally boundaries
-  - replay intervals
-  - game-related segments
-
-- **Rally-level annotations**
-  - rally start and end
-  - rally structure
-
-- **Shot-level annotations**
-  - hit frame
-  - shot type
-  - shuttle trajectory
-  - player pose keypoints
-  - shot caption
-
----
-
 ## Data Package
 
 The released data package contains **12 men's singles matches**
@@ -291,3 +246,22 @@ BFMD/
 ├── README.md
 ├── requirements.txt
 └── environment.yml
+```
+
+---
+
+## Citation
+
+If you use BFMD in your research, please cite our
+[CVPR 2026 Workshop (CVSports) paper](https://openaccess.thecvf.com/content/CVPR2026W/CVsports/papers/Ding_BFMD_A_Full-Match_Badminton_Dense_Dataset_for_Dense_Shot_Captioning_CVPRW_2026_paper.pdf):
+
+```bibtex
+@InProceedings{Ding_2026_CVPR,
+    author    = {Ding, Ning and Fujii, Keisuke and Tamaki, Toru},
+    title     = {BFMD: A Full-Match Badminton Dense Dataset for Dense Shot Captioning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2026},
+    pages     = {9909-9918}
+}
+```
